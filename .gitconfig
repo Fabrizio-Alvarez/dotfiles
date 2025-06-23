@@ -25,10 +25,10 @@
 # [gpg]
 #     format = ssh # Formato de la clave utilizada para firmar commits
 [commit]
-    gpgsign = true # Firmado automático de los commits
+    # gpgsign = true # Firmado automático de los commits
     verbose = true
 [tag]
-    gpgsign = true # Firmado automático de los tags
+    # gpgsign = true # Firmado automático de los tags
     sort = -version:refname
 # [gpg "ssh"]
 #     allowedSignersFile = ~/.config/git/authorized_signers # Claves publicas consideradas "seguras" para los commits firmados
