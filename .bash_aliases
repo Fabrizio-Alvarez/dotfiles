@@ -67,7 +67,7 @@ alias gtdr='git tag --delete origin'
 # vi access shortcuts
 alias vihosts="sudo vi /etc/hosts"
 alias vissh="vi ~/.ssh/config"
-alias viovpn="vi ~/OpenVPN/Alephoo/iyaki.desa.ovpn"
+alias viovpn="vi ~/OpenVPN/Alephoo/falvarez.desa.ovpn"
 
 # ag silver searcher
 alias ag='ag -f -S --hidden '
