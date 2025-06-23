@@ -1,6 +1,6 @@
 [user]
-    email = me@iyaki.ar # El email utilizado para github
-    name = iyaki # Usuario coincidiendo con el de github
+    email = fabrizioalvrz@gmail.com # El email utilizado para github
+    name = Fabrizio-Alvarez # Usuario coincidiendo con el de github
     # signingKey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHw4GbZSnrtVLNbjQfniVLiZtUUcBROWO+oAlISHcNWi # Clave pública correspondiente a la clave privada utilizada para firmar los commits
 
 [core]
@@ -72,7 +72,7 @@
 
 [sendemail]
     smtpserver = smtp.zoho.com
-    smtpuser = me@iyaki.ar
+    smtpuser = fabrizioalvrz@gmail.com
     smtpencryption = tls
     smtpserverport = 587
 
