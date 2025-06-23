@@ -1,7 +1,7 @@
 [user]
     email = me@iyaki.ar # El email utilizado para github
     name = iyaki # Usuario coincidiendo con el de github
-    signingKey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHw4GbZSnrtVLNbjQfniVLiZtUUcBROWO+oAlISHcNWi # Clave pública correspondiente a la clave privada utilizada para firmar los commits
+    # signingKey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHw4GbZSnrtVLNbjQfniVLiZtUUcBROWO+oAlISHcNWi # Clave pública correspondiente a la clave privada utilizada para firmar los commits
 
 [core]
     editor = vim # https://xkcd.com/378/
@@ -22,16 +22,16 @@
     renames = true
     colorMoved = default # Diferencia (en los diff) lineas movidas de lineas eliminadas y nuevas
 
-[gpg]
-    format = ssh # Formato de la clave utilizada para firmar commits
+# [gpg]
+#     format = ssh # Formato de la clave utilizada para firmar commits
 [commit]
     gpgsign = true # Firmado automático de los commits
     verbose = true
 [tag]
     gpgsign = true # Firmado automático de los tags
     sort = -version:refname
-[gpg "ssh"]
-    allowedSignersFile = ~/.config/git/authorized_signers # Claves publicas consideradas "seguras" para los commits firmados
+# [gpg "ssh"]
+#     allowedSignersFile = ~/.config/git/authorized_signers # Claves publicas consideradas "seguras" para los commits firmados
 
 [init]
     defaultBranch = main # Branch default
